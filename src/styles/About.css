@@ -1,0 +1,39 @@
+.about-me {
+ 
+  }
+  
+  .about-me p {
+    margin: 10px 0;
+  }
+
+.about-container{
+    display: flex;
+}
+
+.about-content {
+    background-image: url('../images/about-background2.jpg');
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    color: white
+}
+
+.about-content p {
+    color: white;
+    border: 1px solid #000;
+    border-color: white;
+    background-color: rgb(39, 189, 187);
+    padding: 10px;
+    font-size:larger;
+    font-weight:900;
+    text-align: start;
+}
+
+.profile-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
