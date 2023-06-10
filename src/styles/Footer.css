@@ -1,4 +1,20 @@
 .footer {
-    height: 100px; /* Adjust the desired height */
-    background-color: #f0f0f0; /* Example background color */
+    height: 100px;
+    background-color: rgb(119, 174, 179);
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+    font-size: 45px;
+  }
+
+  .footer-content a {
+    margin: 0 10px;
+  }
+
+  .footer-content a:hover svg {
+    fill: #f1e6e6;
   }
