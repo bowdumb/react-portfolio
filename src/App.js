@@ -4,7 +4,7 @@ import About from './components/About';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
-import Projects from './components/Projects';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,7 +24,7 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       <Footer />
     </div>
