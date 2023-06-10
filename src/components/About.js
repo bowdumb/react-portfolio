@@ -25,7 +25,7 @@ function About() {
             </p>
           </div>
           <div className="profile-image">
-            <img src={profileImage} alt="Profile" />
+            <img src={profileImage} alt="Profile picture" className="profile-border" />
           </div>
         </div>
       </section>
