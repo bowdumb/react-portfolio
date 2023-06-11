@@ -1,0 +1,9 @@
+.resume-page {
+    background-image: url('../images/resume-background.jpg');
+    color: white;
+    background-size: cover;
+}
+
+.content-wrapper {
+    padding-bottom: 33px;
+}
