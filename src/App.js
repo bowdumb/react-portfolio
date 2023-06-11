@@ -6,10 +6,11 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
-import Resume from './components/Resume';
+import ResumeContent from './components/ResumeContent';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+// import ResumeContent from './components/ResumeContent';
 
 function App() {
   const title = 'Josh Claxton: Full-Stack Web Developer';
@@ -26,7 +27,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/resume" element={<Resume />} />
+        <Route path="/resume" element={<ResumeContent />} />
       </Routes>
       <Footer />
     </div>
@@ -34,4 +35,3 @@ function App() {
 }
 
 export default App;
-
