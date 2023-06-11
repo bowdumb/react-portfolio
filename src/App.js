@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
@@ -25,6 +26,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
       <Footer />
     </div>
