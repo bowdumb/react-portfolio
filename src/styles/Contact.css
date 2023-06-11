@@ -1,15 +1,24 @@
+.contact-header {
+    margin-bottom: 75px; 
+    color: white;
+}
+
 .contact-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    background-image: url('../images/resume-background.jpg');
+    background-size: cover;
+    min-height: 100vh;
   }
   
   .contact-form {
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 10px; 
   }
   
   .contact-form label {
@@ -20,4 +29,11 @@
   .contact-form textarea {
     width: 400px;
     padding: 5px;
+  }
+
+  .error-message {
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
   }
