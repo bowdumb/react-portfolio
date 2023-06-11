@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-// import { saveAs } from 'file-saver';
 import resumePDF from '../components/resume/j.claxton-resume.pdf';
 import '../styles/Resume.css';
 
