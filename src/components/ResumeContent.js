@@ -1,8 +1,12 @@
 import React from 'react';
-import Resume from './Resume';
+import resumePDF from '../components/resume/j.claxton-resume.pdf';
 import '../styles/ResumeContent.css';
 
 function ResumeContent() {
+  const handleDownload = () => {
+    window.open(resumePDF, '_blank');
+  };
+
   return (
     <div className="resume-page">
       <div className="content-wrapper">
@@ -25,8 +29,12 @@ function ResumeContent() {
           <li>REST</li>
           <li>APIs</li>
         </ul>
+        <div className="button-container">
+          <button className="btn btn-info" onClick={handleDownload}>
+            View and download resume
+          </button>
+        </div>
       </div>
-      <Resume />
     </div>
   );
 }

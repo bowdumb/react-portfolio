@@ -9,11 +9,13 @@ function Resume() {
   };
 
   return (
-    <div className="resume-container">
-      <div className="download-link">
-        <button className="btn btn-info" onClick={handleDownload}>
-          View and download resume
-        </button>
+    <div className="resume-wrapper">
+      <div className="resume-container">
+        <div className="fixed-download-link">
+          <button className="btn btn-info" onClick={handleDownload}>
+            View and download resume
+          </button>
+        </div>
       </div>
     </div>
   );
