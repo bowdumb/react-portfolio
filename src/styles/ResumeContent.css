@@ -9,6 +9,14 @@
     margin-left: 20px;
 }
 
+.resume-text {
+    font-size: 28px; /* Adjust the font size as needed */
+  }
+
+.resume-list li {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+
 .resume-page {
     background-image: url('../images/resume-background.jpg');
     color: white;
