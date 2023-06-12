@@ -13,7 +13,7 @@ function Navbar() {
     <div>
       <section className="navbar">
         <div className="navbar-content">
-          <h1 style={{ color: 'orange', fontSize: '50px', marginBottom: '10px' }}>
+          <h1 className="navbar-title">
             Josh Claxton Portfolio
           </h1>
           <nav>
@@ -28,12 +28,12 @@ function Navbar() {
                 About
               </NavLink>
               <NavLink
-                to="/projects"
+                to="/portfolio"
                 className="nav-link"
                 activeClassName="active-link"
                 onClick={() => handleLinkClick('/projects')}
               >
-                Projects
+                Portfolio
               </NavLink>
               <NavLink
                 to="/contact"

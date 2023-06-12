@@ -8,7 +8,7 @@ function About() {
       <section className="about-me">
         <div className="about-container">
           <div className="about-content">
-            <h1>About Me</h1>
+            <h1 className="about-title">About Me</h1>
             <p>
               I was born in Washington, DC, but I have been living in Atlanta, Georgia for the past two years.
               For the last decade, I worked in the wine and hospitality industries, specifically as a sommelier in New York City.
