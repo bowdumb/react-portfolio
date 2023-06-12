@@ -1,38 +1,57 @@
 .about-title {
   font-family: 'Hind Madurai', sans-serif;
 }
-  .about-me p {
-    margin: 10px 0;
-  }
 
-.about-container{
-    display: flex;
+.about-me p {
+  margin: 10px 0;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .about-content {
-    background-image: url('../images/about-background2.jpg');
-    display: flex;
-    flex-direction: column;
-    flex: 2;
-    color: white
+  background-image: url('../images/about-background2.jpg');
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  color: white;
+  flex-wrap: wrap;
 }
 
 .about-content p {
-    color: white;
-    border: 1px solid #000;
-    border-color: white;
-    background-color: rgb(119, 174, 179);
-    padding: 10px;
-    font-size:larger;
-    font-weight:900;
-    text-align: start;
+  color: white;
+  border: 1px solid #000;
+  border-color: white;
+  background-color: rgb(119, 174, 179);
+  padding: 10px;
+  font-size: large;
+  font-weight: 800;
+  text-align: start;
 }
 
 .profile-image {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    width: 200px;
-    height: auto;
-    border-radius: 50%;
+  flex: 1;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-content {
+    order: 2;
+    margin-bottom: 20px;
+  }
+
+  .profile-image {
+    order: 1;
+  }
 }
