@@ -63,7 +63,7 @@ function Contact() {
             style={{ height: '250px', width: '600px' }}
           />
         </label>
-        <button type="submit">Submit</button>
+        <button className="btn btn-info" type="submit">Submit</button>
         {inputError && <p className="error-message">{inputError}</p>}
       </form>
     </div>

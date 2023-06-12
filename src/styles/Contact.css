@@ -1,40 +1,45 @@
 .contact-header {
-    margin-bottom: 75px; 
-    color: white;
-    font-family: 'Hind Madurai', sans-serif;
+  margin-bottom: 75px; 
+  color: white;
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 .contact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    background-image: url('../images/resume-background.jpg');
-    background-size: cover;
-    min-height: 100vh;
-  }
-  
-  .contact-form {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px; 
-  }
-  
-  .contact-form label {
-    font-weight: bold;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    width: 400px;
-    padding: 5px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url('../images/resume-background.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  padding-left: 20px;
+}
 
-  .error-message {
-    color: orange;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 5px;
-  }
+.contact-form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 400px;
+  padding: 5px;
+}
+
+.error-message {
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 20px;
+}
