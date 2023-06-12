@@ -1,0 +1,25 @@
+.portfolio-cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .portfolio-container {
+    overflow-y: auto;
+    height: 100vh;
+    margin-bottom: 50px;
+    background-image: url('../images/resume-background.jpg');
+  }
+  .portfolio-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-height: calc(100vh - 200px);
+    overflow: auto;
+  }
+  
+  .portfolio-cards {
+    display: grid;
+  }

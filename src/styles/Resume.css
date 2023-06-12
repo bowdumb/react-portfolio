@@ -4,9 +4,13 @@ iframe {
 }
 .download-link {
     margin: 0 auto;
+    margin-top: -38px;
     width: 200px;
     display: block;
 }
-/* .download-link {
-    margin-bottom: 0;
-  } */
+
+.resume-container {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+  }

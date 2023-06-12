@@ -1,3 +1,14 @@
+.resume-header,
+.resume-text {
+  font-family: 'Hind Madurai', sans-serif;
+  margin-left: 20px;
+}
+
+.resume-list {
+    font-family: 'Hind Madurai', sans-serif;
+    margin-left: 20px;
+}
+
 .resume-page {
     background-image: url('../images/resume-background.jpg');
     color: white;
