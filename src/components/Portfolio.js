@@ -51,6 +51,7 @@ function Portfolio() {
     }
   ];
 
+  // Maps through projects array and renders the output from the ProjectCard component.
   return (
     <div className="portfolio-container">
       <div className="portfolio-cards-container">
