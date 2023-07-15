@@ -9,22 +9,22 @@ function Portfolio() {
       title: 'FilmFetch',
       description: 'An app to help movie enthusiasts find the perfect movie.',
       imageUrl: `${process.env.PUBLIC_URL}/popcorn.jpg`,
-      githubLink: 'https://github.com/claxCode/captain-planet',
-      deployedLink: 'https://claxcode.github.io/captain-planet'
+      githubLink: 'https://github.com/bowdumb/captain-planet',
+      deployedLink: 'https://bowdumb.github.io/captain-planet'
     },
     {
       id: 2,
       title: 'Social Network API',
       description: 'A realistic Social Media backend for routing.',
       imageUrl: `${process.env.PUBLIC_URL}/socialmedia.jpg`,
-      githubLink: 'https://github.com/claxCode/social-network-mock-API'
+      githubLink: 'https://github.com/bowdumb/social-network-mock-API'
     },
     {
       id: 3,
       title: 'Just Another Text Editor',
       description: 'Text editor built as a single-page application for writing JavaScript in a sandbox environment.',
       imageUrl: `${process.env.PUBLIC_URL}/text-editor.jpg`,
-      githubLink: 'https://github.com/claxCode/PWA-text-editor',
+      githubLink: 'https://github.com/bowdumb/PWA-text-editor',
       deployedLink: 'https://young-forest-09742.herokuapp.com/'
     },
     {
