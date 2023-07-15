@@ -32,22 +32,22 @@ function Portfolio() {
       title: 'Command Line Employee Manager',
       description: 'Employee management app using Inquirer.js and MySQL 2.',
       imageUrl: `${process.env.PUBLIC_URL}/employee-manager.jpg`,
-      githubLink: 'https://github.com/claxCode/employee-manager'
+      githubLink: 'https://github.com/bowdumb/employee-manager'
     },
     {
       id: 5,
       title: 'E-Commerce Backend',
       description: 'A demonstration of the back end for a simple e-commerce company. Uses MySql2',
       imageUrl: `${process.env.PUBLIC_URL}/ecommerce.jpg`,
-      githubLink: 'https://github.com/claxCode/e-commerce-backend-app'
+      githubLink: 'https://github.com/bowdumb/e-commerce-backend-app'
     },
     {
       id: 6,
       title: 'Workday Personal Planner',
       description: 'A calendar application that allows you to save events for each hour of the day.',
       imageUrl: `${process.env.PUBLIC_URL}/planner.jpg`,
-      githubLink: 'https://github.com/claxCode/scheduler',
-      deployedLink: 'https://claxcode.github.io/scheduler/'
+      githubLink: 'https://github.com/bowdumb/scheduler',
+      deployedLink: 'https://bowdumb.github.io/scheduler/'
     }
   ];
 
