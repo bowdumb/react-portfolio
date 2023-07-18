@@ -26,6 +26,31 @@ function Contact() {
         return;
     }
 
+    const data = {
+      name: name,
+      email: email,
+      message: message,
+    };
+
+    fetch('/submit_contact_form.php', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => response.json())
+      .then((result) => {
+        console.log(result);
+
+        setName('');
+        setEmail('');
+        setMessage('');
+        setInputError('');
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
     // Clears and resets fields as well as the error message.
     setName('');
     setEmail('');
