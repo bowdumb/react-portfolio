@@ -23,11 +23,16 @@
 }
 
 .navbar-title {
-  color: orange;
+  font-family: 'Black Han Sans', sans-serif;
+  color: rgb(234, 239, 243);
   font-size: 50px;
   margin-bottom: 10px;
   text-shadow: 2px 2px 4px orange;
   padding: 10px;
+}
+
+.navbar-title h1 {
+  font-family: 'Black Han Sans', sans-serif;
 }
 
 

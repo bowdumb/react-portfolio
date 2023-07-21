@@ -14,7 +14,7 @@ function Navbar() {
       <section className="navbar">
         <div className="navbar-content">
           <h1 className="navbar-title">
-            Josh Claxton
+            Josh Claxton - Web Developer
           </h1>
           <nav>
             <div className="navbar-links">
