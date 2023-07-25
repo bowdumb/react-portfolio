@@ -37,7 +37,7 @@ function Portfolio() {
     {
       id: 5,
       title: 'E-Commerce Backend',
-      description: 'A demonstration of the back end for a simple e-commerce company. Uses MySql2',
+      description: 'A demonstration of the back end for a simple e-commerce company. Uses MySql2.',
       imageUrl: `${process.env.PUBLIC_URL}/ecommerce.jpg`,
       githubLink: 'https://github.com/bowdumb/e-commerce-backend-app'
     },
